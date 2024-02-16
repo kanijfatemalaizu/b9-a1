@@ -96,3 +96,21 @@ body{
 }
 
 /* Sale/ Offer css */
+.offer-section{
+    text-align: center;
+}
+.offer-section h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+.offer-section h3{
+    font-family: sans-serif;
+    font-size: 48px;
+    margin: 10px 0 30px
+}
+.sale-amount{
+    font-size: 88px;
+    margin: 80px 0 50px;
+    font-family: sans-serif;
+}
