@@ -10,7 +10,10 @@ body{
 * {
     box-sizing: border-box;
   }
-  
+  p{
+    line-height: 30px;
+    color: #6a6771;
+  }
   .row {
     display: flex;
   }
@@ -84,6 +87,11 @@ body{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+.btn-light{
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 400;
 }
 .button {
     border: none;
@@ -173,12 +181,13 @@ body{
     p{
         padding: 30px 0;
         font-family: sans-serif;
-        color: #6a636b;
+        color: #ffffff;
     }
 }
 .portfolio h3{
     font-family: sans-serif;
     margin-bottom: 0;
+    font-weight: 400;
 }
 .portfolio h1{
     font-size: 48px;
@@ -188,19 +197,26 @@ body{
     color: #828282;
     margin-bottom: 30px;
 }
+.img-hover {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+  }
+  .img-container:hover .img-hover {
+    opacity: 0.3;
+  }
+  
 /* CTA Css */
 .cta-background-color{
     background-color:#fff2f2;
     border-radius: 16px;
-    /* text-align: center; */
 }
 .cta-text{
     text-align: center;
     h1{
         font-size: 48px;
-    }
-    p{
-        color:#6a636b;
     }
 }
 ::placeholder {
@@ -237,33 +253,38 @@ input[type=email] {
   
   /* footer */
   footer {
-    /* text-align: center; */
     background-color: #020211;
-    color: white;
     width: 100%;
     min-height: 5%;
-    /* display: flex; */
     position: absolute;
     margin: 30px 0 0 -60px;
     padding: 85px;
     color: white;
     font-size: 24px;
-    /* justify-content: space-between; */
     .footer-text p{
         line-height: 35px;
+        color: #ffffff;
         
     }
-    .contacts{
+    .contacts p{
         text-align-last: right;
+        color: #ffffff;
     }
     .social{
         text-align: center;
         padding: 35px 0;
     }
-
   }
-  hr{
+
+hr{
     height: 1px;
     background-color: #2b2b2b;
     border: none;
+}
+
+/* Best offer */
+.ellipse{
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 35px;
 }
