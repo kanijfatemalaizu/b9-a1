@@ -172,7 +172,7 @@ body{
     p{
         padding: 30px 0;
         font-family: sans-serif;
-        color: darkgray;
+        color: #6a636b;
     }
 }
 .portfolio h3{
@@ -185,4 +185,52 @@ body{
 }
 .portfolio p{
     color: #828282;
+    margin-bottom: 30px;
 }
+/* CTA Css */
+.cta-background-color{
+    background-color:#fff2f2;
+    border-radius: 16px;
+    /* text-align: center; */
+}
+.cta-text{
+    text-align: center;
+    h1{
+        font-size: 48px;
+    }
+    p{
+        color:#6a636b;
+    }
+}
+::placeholder {
+    color: #e3e3e4;
+    opacity: 1; /* Firefox */
+  }
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: #e3e3e4;
+  } 
+input[type=email] {
+    width: 448px;
+    height: 72px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 500px 0 0 500px;
+  }
+  .button {
+    height: 72px;
+    width: 200px;
+    background-color: #ff0000;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+  }
+  
